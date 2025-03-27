@@ -1586,6 +1586,11 @@ video {
   outline-offset: 2px;
 }
 
+.disabled\:text-gray-400:disabled {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
+}
+
 @media (min-width: 640px) {
   .sm\:inline {
     display: inline;
